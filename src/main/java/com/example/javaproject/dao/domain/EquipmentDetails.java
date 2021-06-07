@@ -44,7 +44,7 @@ public class EquipmentDetails {
         return hasError;
     }
 
-    public void setHasError(boolean hasError) {
-        this.hasError = hasError;
-    }
+        public void setHasError(boolean hasError) {
+            this.hasError = hasError;
+        }
 }
