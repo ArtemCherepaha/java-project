@@ -1,5 +1,8 @@
 package com.example.javaproject.services.mappers;
 
+import com.example.javaproject.dao.domain.Equipment;
+import com.example.javaproject.dto.equipment.EquipmentDto;
+
 public class EquipmentMapper {
     public static EquipmentDto toDto(Equipment equipment) {
         EquipmentDto dto = new EquipmentDto();

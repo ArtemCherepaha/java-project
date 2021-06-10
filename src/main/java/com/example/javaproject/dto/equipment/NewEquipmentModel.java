@@ -1,4 +1,4 @@
-package com.example.javaproject.equipment;
+package com.example.javaproject.dto.equipment;
 
 public class NewEquipmentModel {
     private String serialNumber;
