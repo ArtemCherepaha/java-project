@@ -30,6 +30,9 @@ public class EquipmentService implements com.example.javaproject.services.interf
     @Autowired
     private ManufacturerRepository manufacturerRepository;
 
+    public EquipmentService() {
+    }
+
     @Override
     public EquipmentDto getEquipment(long id) {
         return EquipmentMapper.toDto(
